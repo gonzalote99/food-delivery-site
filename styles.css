@@ -1,0 +1,173 @@
+body {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+header::after {
+  background: url('https://images.unsplash.com/photo-1586816001966-79b736744398?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') no-repeat center center/cover;
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 500px;
+  z-index: -1;
+  opacity: 0.6;
+
+
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+font-size: 1.5rem;
+font-weight: bold;
+flex-wrap: wrap;
+}
+
+
+img {
+  width: 55px;
+  height: 55px;
+  margin: 0px 8px;
+  margin-top: 20px;
+}
+
+#navFoodiz {
+margin-top: 30px;
+}
+
+#intro {
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+text-align: center;
+height: 700px;
+}
+
+.basic-intro {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.about {
+  position: absolute;
+  top: 550px;
+  color: #d70f64;
+}
+
+
+.introcard {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0.1s;
+  box-sizing: border-box;
+
+}
+
+.icard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 25px;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cardmenu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(43, 42, 42);
+  color: white;
+}
+
+.pay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: purple;
+  padding: 17px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.paisa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px;
+}
+
+#amtbtn {
+  background-color: purple;
+  border: none;
+  color: white;
+}
+
+.topay {
+  border-radius: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+
+.maincard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  transition-property: all;
+  border: 2px solid red;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  transition-duration: 0.9s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mcard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: justify;
+}
+
+.endimg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.endimg>img {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+  width: 330px;
+  height: 450px;
+  
+
+}
